@@ -15,4 +15,7 @@ main() {
   if (text.split(' ').length >= 5) {
     print(text.split(' ').reversed.join(' '));
   }
+  else{
+    print("Mətndəki söz sayı 5-dən azdır.");
+  }
 }
