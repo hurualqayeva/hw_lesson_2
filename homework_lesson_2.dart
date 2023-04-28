@@ -12,5 +12,7 @@ main() {
   // Cümləni sözlərini əksinə sıralayan bir mesaj çap edin.
   // Nümunə: dart programlaşdırma dilidir => dilidir proqramlaşdırma dart
   String text = stdin.readLineSync().toString();
-  print(text.split(' ').reversed.join(' '));
+  if (text.split(' ').length >= 5) {
+    print(text.split(' ').reversed.join(' '));
+  }
 }
